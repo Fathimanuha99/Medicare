@@ -1,0 +1,127 @@
+/* Tablet Devices */
+
+@media screen and (max-width: 900px){
+
+
+.navbar{
+
+    padding:20px;
+
+}
+
+
+.nav-links{
+
+    gap:15px;
+
+}
+
+
+
+.hero-content h1{
+
+    font-size:40px;
+
+}
+
+
+
+.doctor-container,
+.services-container,
+.contact-container{
+
+    flex-direction:column;
+
+    align-items:center;
+
+}
+
+
+
+}
+
+
+
+/* Mobile Devices */
+
+
+@media screen and (max-width:600px){
+
+
+.navbar{
+
+    flex-direction:column;
+
+}
+
+
+.logo{
+
+    margin-bottom:20px;
+
+}
+
+
+
+.nav-links{
+
+    flex-direction:column;
+
+    text-align:center;
+
+}
+
+
+
+.hero{
+
+    height:70vh;
+
+}
+
+
+
+.hero-content h1{
+
+    font-size:30px;
+
+}
+
+
+
+.hero-content p{
+
+    font-size:16px;
+
+}
+
+
+
+#doctorSearch{
+
+    width:90%;
+
+}
+
+
+
+.doctor-card,
+.service-card,
+.contact-info,
+.contact-form{
+
+    width:90%;
+
+}
+
+
+
+#appointmentForm{
+
+    width:90%;
+
+}
+
+
+
+}
