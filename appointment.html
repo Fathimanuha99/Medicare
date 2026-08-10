@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Book Appointment - MediCare Hospital</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+🏥 MediCare Hospital
+</div>
+
+
+<ul class="nav-links">
+
+<li><a href="index.html">Home</a></li>
+<li><a href="doctors.html">Doctors</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="appointment.html">Appointment</a></li>
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+
+
+
+<section class="appointment-section">
+
+
+<h1>Book Your Appointment</h1>
+
+
+
+<form id="appointmentForm">
+
+
+<label>
+Patient Name
+</label>
+
+<input 
+type="text" 
+id="name"
+placeholder="Enter your name"
+>
+
+
+
+<label>
+Email Address
+</label>
+
+<input 
+type="email" 
+id="email"
+placeholder="Enter your email"
+>
+
+
+
+
+<label>
+Phone Number
+</label>
+
+<input 
+type="tel"
+id="phone"
+placeholder="Enter phone number"
+>
+
+
+
+
+<label>
+Select Doctor
+</label>
+
+
+<select id="doctor">
+
+
+<option value="">
+Choose Doctor
+</option>
+
+
+<option>
+Dr. Fathima Nuha - Cardiologist
+</option>
+
+
+<option>
+Dr. Mohamed Nabreis - Neurologist
+</option>
+
+
+<option>
+Dr. Nabreis Nuha - Paediatrician
+</option>
+
+
+</select>
+
+
+
+
+<label>
+Appointment Date
+</label>
+
+
+<input 
+type="date"
+id="date"
+>
+
+
+
+
+<button type="submit">
+
+Book Appointment
+
+</button>
+
+
+
+<p id="message"></p>
+
+
+
+</form>
+
+
+</section>
+
+
+
+
+<script src="js/script.js"></script>
+
+
+</body>
+
+</html>
